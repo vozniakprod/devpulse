@@ -1,0 +1,16 @@
+{
+  "name": "devpulse",
+  "version": "0.1.0",
+  "description": "Self-hosted VPS & Docker health monitor",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["monitoring", "docker", "vps", "websockets", "dashboard"],
+  "author": "Roman Vozniak",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
